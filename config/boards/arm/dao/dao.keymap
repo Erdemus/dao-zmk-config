@@ -19,14 +19,10 @@
 #define RSE 2
 #define ADJ 3
 
-&lt {
-	flavor = "balanced";
-	quick_tap_ms = <125>;
-	require-prior-idle-ms = <125>;
-};
-&mt {
-	flavor = "balanced";
-	quick_tap_ms = <125>;
+&mtt {
+	flavor = "hold-preferred";
+	tapping-term-ms = <200>;
+	quick_tap_ms = <150>;
 	require-prior-idle-ms = <125>;
 };
 
@@ -54,10 +50,10 @@
 
         default_layer {
             bindings = <
-  &lt RSE TAB     &kp Q  &kp W  &kp E           &kp R        &kp T                   &kp Y             &kp U        &kp I          &kp O    &kp P     &lt RSE LBKT
-  &mt LCTRL ESC   &kp A  &kp S  &kp D           &kp F        &kp G                   &kp H             &kp J        &kp K          &kp L    &kp SEMI  &mt RCTRL SQT
-  &mt LALT GRAVE  &kp Z  &kp X  &kp C           &kp V        &kp B                   &kp N             &kp M        &kp COMMA      &kp DOT  &kp FSLH  &mt RALT RBKT
-                                &mt LGUI ENTER  &lt LWR MINUS  &mt LSHIFT SPACE    &mt RSHIFT SPACE  &lt LWR UNDER  &mt RGUI BSPC
+  &lt RSE TAB     &kp Q  &kp W  &kp E           &kp R          &kp T                &kp Y              &kp U        &kp I          &kp O    &kp P     &lt RSE LBKT
+  &mt LCTRL ESC   &kp A  &kp S  &kp D           &kp F          &kp G                &kp H              &kp J        &kp K          &kp L    &kp SEMI  &mt RCTRL SQT
+  &mt LALT GRAVE  &kp Z  &kp X  &kp C           &kp V          &kp B                &kp N              &kp M        &kp COMMA      &kp DOT  &kp FSLH  &mt RALT RBKT
+                                &mt LGUI ENTER  &lt LWR MINUS  &mtt LSHIFT SPACE    &mtt RSHIFT SPACE  &lt LWR UNDER  &mt RGUI BSPC
             >;
         };
 
