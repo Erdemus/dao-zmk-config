@@ -19,7 +19,7 @@
 #define RSE 2
 #define ADJ 3
 
-&mtt {
+mtt {
 	flavor = "hold-preferred";
 	tapping-term-ms = <200>;
 	quick_tap_ms = <150>;
