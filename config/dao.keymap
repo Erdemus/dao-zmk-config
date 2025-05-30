@@ -62,19 +62,19 @@
 
         lower_layer {
             bindings = <
-&lt ADJ TILDE   &kp N1     &kp N2    &kp N3    &kp N4          &kp N5     &kp N6    &kp N7          &kp N8    &kp N9    &kp N0     &lt ADJ PIPE
-&trans          &kp EXCL   &kp AT    &kp HASH  &kp DLLR        &kp PRCNT  &kp LBKT  &kp RBKT        &kp LPAR  &kp RPAR  &kp COLON  &mt RCTRL DQT
-&mt LALT TILDE  &kp CARET  &kp AMPS  &kp STAR  &kp PLUS        &kp MINUS  &kp LBRC  &kp RBRC        &kp LT    &kp GT    &kp QMARK  &kp BSLH
-                                     &trans    &mt LALT EQUAL  &trans     &trans    &mt RALT EQUAL  &trans
+&lt ADJ TILDE    &kp N1     &kp N2    &kp N3    &kp N4          &kp N5     &kp N6    &kp N7          &kp N8    &kp N9    &kp N0     &lt ADJ PIPE
+&trans           &kp EXCL   &kp AT    &kp HASH  &kp DLLR        &kp PRCNT  &kp LBKT  &kp RBKT        &kp LPAR  &kp RPAR  &kp COLON  &mt RCTRL DQT
+&mt LSHFT TILDE  &kp CARET  &kp AMPS  &kp STAR  &kp PLUS        &kp MINUS  &kp LBRC  &kp RBRC        &kp LT    &kp GT    &kp QMARK  &mt RSHFT BSLH
+                                      &trans    &mt LALT EQUAL  &trans     &trans    &mt RALT EQUAL  &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&lt ADJ TILDE   &kp N1     &kp N2    &kp N3    &kp N4          &kp N5     &kp N6            &kp N7          &kp N8     &kp N9            &kp N0     &lt ADJ PIPE
-&trans          &kp EXCL   &kp AT    &kp HASH  &kp DLLR        &kp PRCNT  &kp LEFT          &kp DOWN        &kp UP     &kp RIGHT         &kp COLON  &mt RCTRL DQT
-&mt LALT TILDE  &kp CARET  &kp AMPS  &kp STAR  &kp PLUS        &kp MINUS  &kp LG(LS(LBKT))  &kp PG_DN       &kp PG_UP  &kp LG(LS(RBKT))  &kp QMARK  &kp BSLH
-                                     &trans    &mt LALT EQUAL  &trans     &trans            &mt RALT EQUAL  &trans
+&lt ADJ TILDE    &kp N1     &kp N2    &kp N3    &kp N4          &kp N5     &kp N6            &kp N7          &kp N8     &kp N9            &kp N0     &lt ADJ PIPE
+&trans           &kp EXCL   &kp AT    &kp HASH  &kp DLLR        &kp PRCNT  &kp LEFT          &kp DOWN        &kp UP     &kp RIGHT         &kp COLON  &mt RCTRL DQT
+&mt LSHFT TILDE  &kp CARET  &kp AMPS  &kp STAR  &kp PLUS        &kp MINUS  &kp LG(LS(LBKT))  &kp PG_DN       &kp PG_UP  &kp LG(LS(RBKT))  &kp QMARK  &mt RSHFT BSLH
+                                      &trans    &mt LALT EQUAL  &trans     &trans            &mt RALT EQUAL  &trans
             >;
         };
 
